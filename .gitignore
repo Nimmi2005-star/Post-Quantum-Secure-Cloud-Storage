@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Private keys and runtime data
+keys/
+storage/
+audit.jsonl
+.env
+*.pem
+*.key
+*.seed
+*.seed.enc
+*.bin
+
+# Local exports and logs
+*.csv
+*.log
+
+# Screenshots and backups
+screenshots/
+archive_v1/
+backups/
+
+# Local benchmark environment
+reports/benchmark_env.json
